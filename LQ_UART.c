@@ -213,7 +213,7 @@ void UART0_ER_IRQHandler(void)
 	IfxAsclin_Asc_isrError(&g_UartConfig[0]);
 
 	/* ÓÃ»§´úÂë */
-
+	printf("hello world");
 }
 
 void UART1_RX_IRQHandler(void)
